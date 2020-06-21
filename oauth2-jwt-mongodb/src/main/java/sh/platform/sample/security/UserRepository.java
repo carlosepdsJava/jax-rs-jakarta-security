@@ -2,6 +2,7 @@ package sh.platform.sample.security;
 
 import jakarta.nosql.mapping.Repository;
 
+import javax.decorator.Decorator;
 import javax.enterprise.context.ApplicationScoped;
 import java.util.List;
 import java.util.Optional;
