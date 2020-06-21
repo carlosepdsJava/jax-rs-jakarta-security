@@ -1,6 +1,7 @@
 package sh.platform.sample.security.infra;
 
 import javax.annotation.security.DeclareRoles;
+import javax.decorator.Decorator;
 import javax.enterprise.context.ApplicationScoped;
 import javax.security.enterprise.authentication.mechanism.http.BasicAuthenticationMechanismDefinition;
 import javax.ws.rs.ApplicationPath;
